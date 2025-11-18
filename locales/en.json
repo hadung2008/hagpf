@@ -1,0 +1,590 @@
+
+{
+  "lang": "English",
+  "login": {
+    "title": "HAG",
+    "subtitle": "Sign in to HAG platform",
+    "emailLabel": "Email Address",
+    "passwordLabel": "Password",
+    "rememberMe": "Remember me",
+    "forgotPassword": "Forgot your password?",
+    "signInButton": "Sign In",
+    "demoLogins": "Demo Logins (use any password):",
+    "error": "Invalid credentials. Check the list of demo accounts below."
+  },
+  "appSelector": {
+    "title": "HAG Portal",
+    "pinnedApps": "Pinned Applications",
+    "allApps": "All Applications",
+    "addApp": "Add Application",
+    "noApps": "No applications available. Click 'Add Application' to get started.",
+    "allPinned": "All available applications are pinned.",
+    "logout": "Logout",
+    "editApp": "Edit App",
+    "deleteApp": "Delete App",
+    "pinApp": "Pin App",
+    "unpinApp": "Unpin App",
+    "lastModified": "Last modified: {time}",
+    "idExistsError": "An application with this ID already exists. Please choose a unique ID."
+  },
+  "apps": {
+    "ApprovalFlow": {
+      "name": "Approval Flow Manager",
+      "description": "A comprehensive application to create, manage, and track document approval workflows across multiple departments."
+    },
+    "RolePermissions": {
+      "name": "Permission Manager",
+      "description": "An application to manage user roles and accounts. Features full management of functions and actions, global permission mapping, and AI-powered explanations."
+    },
+    "RepairShop": {
+      "name": "Store Operations",
+      "description": "A unified platform to manage point-of-sale, device repairs, inventory, and business reporting for your tech store."
+    }
+  },
+  "enums": {
+    "userRoles": {
+      "Employee": "Employee",
+      "Manager": "Manager",
+      "Director": "Director",
+      "Finance": "Finance",
+      "Admin": "Admin"
+    },
+    "departments": {
+      "IT": "IT",
+      "Human Resources": "Human Resources",
+      "Finance": "Finance",
+      "Marketing": "Marketing",
+      "Sales": "Sales"
+    }
+  },
+  "general": {
+    "backToApps": "Back to Apps",
+    "welcome": "Welcome, {name}",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "confirm": "Confirm",
+    "add": "Add",
+    "edit": "Edit",
+    "close": "Close",
+    "submit": "Submit",
+    "all": "All",
+    "na": "N/A",
+    "search": "Search...",
+    "loading": "Loading...",
+    "optional": "(Optional)",
+    "required": "Required",
+    "actions": "Actions"
+  },
+  "modals": {
+    "deleteAppTitle": "Delete Application",
+    "deleteAppMessage": "Are you sure you want to delete this application? This action cannot be undone.",
+    "appEdit": {
+      "editTitle": "Edit Application",
+      "addTitle": "Add Application",
+      "nameLabel": "Application Name",
+      "idLabel": "Application ID",
+      "idError": "This ID is already taken. Please choose another.",
+      "idHelp": "Unique ID to launch the app. Auto-generated from name.",
+      "descriptionLabel": "Description",
+      "iconLabel": "Icon"
+    }
+  },
+  "approvalFlow": {
+    "header": {
+      "title": "ApprovalFlow",
+      "dashboard": "Dashboard",
+      "formTemplates": "Form Templates",
+      "workflows": "Workflows",
+      "newRequest": "New Request"
+    },
+    "index": {
+      "loading": "Loading ApprovalFlow data...",
+      "accessDenied": {
+        "title": "Access Denied",
+        "message": "You do not have permission to view or manage {resource}.",
+        "contactAdmin": "Please contact an administrator if you believe this is an error."
+      },
+      "dashboard": {
+        "myTasks": "My Approval Tasks",
+        "waitingOnStep": "Waiting for your approval on step: \"{stepName}\"",
+        "noTasks": "No pending tasks.",
+        "mySubmissions": "My Submitted Documents",
+        "currentStep": "Current step: {step}",
+        "finished": "Finished",
+        "noSubmissions": "You have not submitted any documents."
+      },
+      "templates": {
+        "title": "Form Templates",
+        "create": "Create Form",
+        "fieldsCount": "Fields: {count}"
+      },
+      "workflows": {
+        "title": "Workflow Definitions",
+        "create": "Create Workflow",
+        "form": "Form: {name}",
+        "steps": "Steps: {count}"
+      },
+      "alerts": {
+        "deleteWorkflowInUse": "Cannot delete this workflow because it's part of one or more active/completed submissions.",
+        "deleteWorkflowConfirm": "Are you sure you want to delete this workflow definition?",
+        "noWorkflowForForm": "No workflow found for this form. Please contact an admin.",
+        "invalidFormTemplate": "Invalid form template.",
+        "workflowNameAndStepRequired": "Workflow name and at least one step are required.",
+        "deleteTemplateInUse": "Cannot delete this form template because it is being used by one or more workflows.",
+        "deleteTemplateConfirm": "Are you sure you want to delete this form template? This action cannot be undone."
+      }
+    },
+    "instanceView": {
+      "workflow": "Workflow: {name}",
+      "status": "Status",
+      "formType": "Form Type",
+      "formDetails": "Form Details",
+      "downloadFile": "Download File",
+      "approvalSteps": "Approval Steps",
+      "approverRole": "Approver Role: {role}",
+      "approvers": "Approver(s): {users}",
+      "noApprover": "No approver set",
+      "emailNotification": "Email notification enabled",
+      "history": "History",
+      "actionByOnStep": "{action} by {actor} on step \"{stepName}\"",
+      "yourAction": "Your Action",
+      "notesPlaceholder": "Add optional notes...",
+      "revert": "Revert",
+      "reject": "Reject",
+      "approve": "Approve"
+    },
+    "workflowEditor": {
+      "editTitle": "Edit Workflow",
+      "createTitle": "Create New Workflow",
+      "nameLabel": "Workflow Name",
+      "namePlaceholder": "e.g., High-Value Contract Approval",
+      "templateLabel": "Form Template",
+      "departmentLabel": "Department (Optional, for filtering)",
+      "allDepartments": "All Departments (Global)",
+      "stepsLabel": "Approval Steps",
+      "removeStep": "Remove Step {step}",
+      "step": "Step {step}",
+      "stepNameLabel": "Step Name",
+      "stepNamePlaceholder": "e.g., Legal Review",
+      "assignByLabel": "Assign By",
+      "byRole": "Role",
+      "byUser": "User",
+      "approverRoleLabel": "Approver Role",
+      "approversLabel": "Approver(s)",
+      "multiSelectHint": "Hold Ctrl/Cmd to select multiple users.",
+      "sendEmail": "Send email notification to approver",
+      "enableCondition": "Enable conditional logic for this step",
+      "selectField": "Select Field",
+      "addStep": "Add Step"
+    },
+    "docSubmission": {
+      "title": "Submit: {name}",
+      "requestNameLabel": "Request Title / Name",
+      "requestNamePlaceholder": "e.g., New Dell XPS 15 for Project Titan",
+      "selectOption": "-- Select an option --",
+      "download": "Download: {label}",
+      "department": "Department",
+      "submitButton": "Submit for Approval",
+      "alertTitle": "Please fill the request title.",
+      "alertFieldRequired": "Field \"{label}\" is required."
+    },
+    "templateEditor": {
+      "editTitle": "Edit Form Template",
+      "createTitle": "Create New Form Template",
+      "nameLabel": "Form Name",
+      "namePlaceholder": "e.g., IT Hardware Request",
+      "departmentLabel": "Department",
+      "fieldsLabel": "Form Fields",
+      "removeField": "Remove Field {field}",
+      "fieldLabel": "Field Label",
+      "fieldLabelPlaceholder": "e.g., Justification",
+      "fieldType": "Field Type",
+      "placeholder": "Placeholder Text (Optional)",
+      "placeholderExample": "e.g., Enter the total cost",
+      "dropdownOptions": "Dropdown Options (One per line)",
+      "dropdownExample": "Option 1\nOption 2\nOption 3",
+      "downloadUrl": "Download URL",
+      "downloadUrlPlaceholder": "https://example.com/file.pdf",
+      "addField": "Add Field",
+      "saveTemplate": "Save Template",
+      "alertNameRequired": "Form name is required."
+    },
+    "newRequest": {
+      "title": "Start a New Request",
+      "subtitle": "Select a department and form to begin.",
+      "step1": "1. Select Department",
+      "selectDepartment": "-- Choose a department --",
+      "step2": "2. Select Form",
+      "selectForm": "-- Choose a form --",
+      "noFormsFound": "No forms found for this department.",
+      "startButton": "Start Request"
+    }
+  },
+  "rolePermissions": {
+    "header": "Permission Dashboard",
+    "manageApp": "Manage Application",
+    "aiSummaryDefault": "This user has no assigned roles and thus has limited access.",
+    "aiExplanationError": "Sorry, I was unable to fetch an explanation at this time.",
+    "loadingData": "Loading permission data...",
+    "generatingExplanation": "Generating explanation...",
+    "tabs": {
+      "roleManagement": "Role Management",
+      "userManagement": "User Management",
+      "permissions": "Permissions",
+      "definitions": "Definitions"
+    },
+    "userTab": {
+      "title": "Users for {appName}",
+      "addUser": "Add User",
+      "table": {
+        "fullName": "Full Name",
+        "username": "Username",
+        "email": "Email",
+        "roleInApp": "Role in App"
+      },
+      "deleteConfirm": "Are you sure you want to delete this user?",
+      "modal": {
+        "editTitle": "Edit User",
+        "addTitle": "Add User",
+        "fullName": "Full Name",
+        "username": "Username",
+        "email": "Email Address",
+        "assignRoles": "Assign Roles",
+        "selected": "{count} selected"
+      }
+    },
+    "roleTab": {
+      "selectRole": "Select Role",
+      "addNewRole": "Add New Role",
+      "addRolePlaceholder": "Enter new role name...",
+      "copyFromLabel": "Copy Permissions From",
+      "copyButton": "Copy",
+      "confirmCopy": "Are you sure you want to replace all permissions for \"{toRole}\" with permissions from \"{fromRole}\"?",
+      "function": "Function",
+      "alertUniqueName": "Role name must be unique and not empty."
+    },
+    "matrixTab": {
+      "title": "Global Permission Mapping",
+      "description": "Use this matrix to enable or disable actions for functions across the entire application. If a checkbox is unchecked here, the corresponding permission cannot be assigned to any role.",
+      "function": "Function"
+    },
+    "definitionsTab": {
+      "manageFunctions": "Manage Functions",
+      "addFunction": "Add Function",
+      "functionName": "Function Name",
+      "controls": "Controls",
+      "addSubFunction": "Add Sub-function",
+      "editFunction": "Edit Function",
+      "deleteFunction": "Delete Function",
+      "manageActions": "Manage Actions",
+      "addGroup": "Add Group",
+      "addAction": "Add Action",
+      "editGroup": "Edit Group",
+      "deleteGroup": "Delete Group",
+      "alerts": {
+        "actionIdExists": "An action with this ID already exists.",
+        "cannotDeleteGroupWithActions": "Cannot delete a group that contains actions. Please move or delete the actions first.",
+        "deleteFunctionConfirm": "Are you sure you want to delete this function? This may affect existing roles.",
+        "deleteActionConfirm": "Are you sure you want to delete this action? It will be removed from all functions.",
+        "deleteGroupConfirm": "Are you sure you want to delete this action group?"
+      }
+    },
+    "functionModal": {
+      "editTitle": "Edit Function",
+      "addSubTitle": "Add Sub-function",
+      "addTitle": "Add Function",
+      "nameLabel": "Function Name",
+      "availableActions": "Available Actions",
+      "alertNameRequired": "Function name is required."
+    },
+    "actionModal": {
+      "editTitle": "Edit Action",
+      "addTitle": "Add Action",
+      "nameLabel": "Action Name",
+      "namePlaceholder": "e.g., Approve",
+      "groupLabel": "Group",
+      "selectGroup": "-- Select a group --",
+      "alertNameRequired": "Action name is required.",
+      "alertGroupRequired": "Please select a group for the new action."
+    },
+    "groupModal": {
+      "editTitle": "Edit Action Group",
+      "addTitle": "Add Action Group",
+      "nameLabel": "Group Name",
+      "namePlaceholder": "e.g., Advanced Reporting",
+      "alertNameRequired": "Group name is required."
+    }
+  },
+  "repairShop": {
+    "header": {
+      "title": "Store Operations",
+      "sales": "Sales",
+      "repairs": "Repairs & Warranty",
+      "inventory": "Inventory",
+      "reports": "Management & Reports"
+    },
+    "dashboard": {
+      "title": "Repair Tickets",
+      "searchPlaceholder": "Search by Ticket ID, Customer, Device...",
+      "newTicket": "New Repair Ticket",
+      "idHeader": "Ticket ID",
+      "customerHeader": "Customer",
+      "deviceHeader": "Device",
+      "statusHeader": "Status",
+      "dateHeader": "Date Received",
+      "customerViewTooltip": "Customer Status View",
+      "editTooltip": "Edit Ticket",
+      "noTickets": "No matching repair tickets found."
+    },
+    "sales": {
+      "posTab": "Point of Sale (POS)",
+      "historyTab": "Invoice History",
+      "searchPlaceholder": "Search products by name or ID...",
+      "outOfStock": "OUT OF STOCK",
+      "currentSale": "Current Sale",
+      "clearCart": "Clear Cart",
+      "selectCustomer": "-- Select a customer --",
+      "addCustomerTooltip": "Add new customer",
+      "cartEmptyTitle": "Your cart is empty",
+      "cartEmptySubtitle": "Click a product to add it to the sale.",
+      "subtotal": "Subtotal:",
+      "discount": "Discount:",
+      "tax": "Tax (%):",
+      "total": "Total:",
+      "payNow": "Pay Now",
+      "alertOutOfStock": "This product is out of stock.",
+      "alertNoMoreStock": "No more stock available.",
+      "alertSelectCustomer": "Please select a customer."
+    },
+    "inventory": {
+      "receiveStockTab": "Receive Stock",
+      "productsCategoriesTab": "Products & Categories",
+      "receiveTitle": "Receive New Stock",
+      "categoryLabel": "Category",
+      "allCategories": "All Categories",
+      "productLabel": "Product",
+      "selectProduct": "-- Select a product to add --",
+      "quantityLabel": "Quantity",
+      "addToList": "Add to List",
+      "receivingList": "Receiving List",
+      "supplierLabel": "Supplier (Optional)",
+      "notesLabel": "Notes (Optional)",
+      "receiveAll": "Receive All Items",
+      "historyTitle": "Receiving History",
+      "dateHeader": "Date",
+      "receivedByHeader": "Received By",
+      "supplierHeader": "Supplier",
+      "totalItemsHeader": "Total Items",
+      "detailsHeader": "Details",
+      "logDetails": "Details for Log #{id}:",
+      "logNotes": "Notes: \"{notes}\"",
+      "qty": "Qty: {qty}",
+      "feedbackSuccess": "{count} item types successfully received.",
+      "alertSelectProduct": "Please select a product and enter a valid quantity.",
+      "alertAddItems": "Please add at least one item to the receiving list.",
+      "stockStatus": "Stock: {stock}"
+    },
+    "products": {
+      "title": "Products",
+      "newProduct": "New Product",
+      "searchPlaceholder": "Search products...",
+      "nameHeader": "Product Name",
+      "stockHeader": "Stock",
+      "priceHeader": "Sell Price",
+      "lowStock": "Low",
+      "editor": {
+        "editTitle": "Edit Product",
+        "addTitle": "Add New Product",
+        "nameLabel": "Product Name",
+        "categoryLabel": "Category",
+        "costPriceLabel": "Cost Price ($)",
+        "markupLabel": "Markup (%)",
+        "sellingPriceLabel": "Selling Price ($)",
+        "supplierLabel": "Supplier",
+        "warrantyLabel": "Warranty (Months)",
+        "alertNameRequired": "Product name is required.",
+        "saveBtn": "Save Product"
+      }
+    },
+    "categories": {
+      "title": "Categories",
+      "addNewPlaceholder": "Add new category...",
+      "addBtn": "Add",
+      "alertEmpty": "Category name cannot be empty.",
+      "alertExists": "A category with this name already exists.",
+      "alertCannotDelete": "Cannot delete category \"{name}\" because it is assigned to one or more products.",
+      "deleteConfirm": "Are you sure you want to delete the category \"{name}\"?"
+    },
+    "management": {
+      "menuTitle": "Admin Menu",
+      "reportsDashboard": "Reports Dashboard",
+      "auditLog": "Audit Log"
+    },
+    "reports": {
+      "title": "Reports",
+      "salesRevenueTitle": "Sales & Repair Revenue",
+      "salesRevenueDesc": "Track revenue by day, month, or year.",
+      "bestSellingTitle": "Best-Selling Products",
+      "bestSellingDesc": "Identify top products and most-used repair parts.",
+      "repairVolumeTitle": "Repair & Warranty Volume",
+      "repairVolumeDesc": "Count of repair and warranty tickets over time.",
+      "salesEmployeeTitle": "Sales by Employee",
+      "salesEmployeeDesc": "Analyze performance and sales data for each staff member.",
+      "inventoryTitle": "Inventory Report",
+      "inventoryDesc": "View stock levels, turnover, and in/out/balance.",
+      "exportDataTitle": "Export Data",
+      "exportDataDesc": "Download raw data as an Excel (.xlsx) file.",
+      "backBtn": "Back to Reports",
+      "last7Days": "Last 7 Days",
+      "last30Days": "Last 30 Days",
+      "thisYear": "This Year",
+      "allTime": "All Time",
+      "totalRevenue": "Total Revenue",
+      "grossProfit": "Gross Profit",
+      "totalSales": "Total Sales",
+      "totalRepairIncome": "Total Repair Income",
+      "dateHeader": "Date",
+      "salesProfitHeader": "Sales Profit",
+      "repairProfitHeader": "Repair Profit",
+      "totalProfitHeader": "Total Profit",
+      "totalRevenueHeader": "Total Revenue",
+      "noData": "No data available for the selected period.",
+      "top10Products": "Top 10 Selling Products",
+      "productHeader": "Product",
+      "unitsSoldHeader": "Units Sold",
+      "revenueHeader": "Revenue",
+      "top10Parts": "Top 10 Most Used Parts",
+      "partHeader": "Part",
+      "unitsUsedHeader": "Units Used",
+      "totalTicketsPeriod": "Total Tickets in Period",
+      "newTicketsHeader": "New Tickets Created",
+      "noNewTickets": "No new tickets for the selected period.",
+      "employeeHeader": "Employee",
+      "salesCountHeader": "# of Sales",
+      "avgSaleValueHeader": "Avg. Sale Value",
+      "noSalesData": "No sales data for the selected period.",
+      "inventoryValue": "Total Inventory Value",
+      "potentialProfit": "Total Potential Profit",
+      "totalSKUs": "Total SKUs",
+      "lowStockItems": "Low Stock Items",
+      "stockHeader": "Stock",
+      "costPriceHeader": "Cost Price",
+      "potentialProfitHeader": "Potential Profit",
+      "totalValueHeader": "Total Value"
+    },
+    "enums": {
+      "repairStatus": {
+        "Pending": "Pending",
+        "Diagnosing": "Diagnosing",
+        "Repairing": "Repairing",
+        "Waiting for Part": "Waiting for Part",
+        "Completed": "Completed",
+        "Delivered": "Delivered",
+        "Cancelled": "Cancelled"
+      }
+    },
+    "modals": {
+      "customer": {
+        "addTitle": "Add New Customer",
+        "nameLabel": "Full Name",
+        "phoneLabel": "Phone Number",
+        "emailLabel": "Email Address (Optional)",
+        "alertRequired": "Name and phone number are required.",
+        "saveBtn": "Save Customer"
+      },
+      "payment": {
+        "title": "Complete Payment",
+        "totalDue": "Total Amount Due:",
+        "confirmBtn": "Confirm Payment"
+      },
+      "invoice": {
+        "title": "Invoice Detail: {id}",
+        "dateLabel": "Date:",
+        "customerLabel": "Customer:",
+        "salespersonLabel": "Salesperson:",
+        "itemsTitle": "Items",
+        "productHeader": "Product",
+        "qtyHeader": "Qty",
+        "unitPriceHeader": "Unit Price",
+        "totalHeader": "Total"
+      },
+      "saleComplete": {
+        "title": "Sale Completed",
+        "success": "Success!",
+        "invoiceCreated": "Invoice {id} has been created.",
+        "summaryTitle": "Invoice Summary",
+        "total": "Total:",
+        "downloadPdf": "Download PDF",
+        "generating": "Generating...",
+        "print": "Print Invoice",
+        "newSale": "Start New Sale"
+      },
+      "ticketEditor": {
+        "newTitle": "New Repair Ticket",
+        "editTitle": "Edit Ticket: {id}",
+        "customerLabel": "Customer",
+        "selectCustomer": "-- Select Customer --",
+        "deviceModelLabel": "Device Model",
+        "serialLabel": "Serial #",
+        "technicianLabel": "Assign Technician",
+        "unassigned": "Unassigned",
+        "issueLabel": "Reported Issue",
+        "diagnosisLabel": "Diagnosis",
+        "partsLabel": "Parts Used",
+        "addPartPlaceholder": "-- Add a part --",
+        "addPartStock": "Stock: {stock}",
+        "laborCostLabel": "Labor Cost ($)",
+        "totalCostLabel": "Total Cost",
+        "warrantyLabel": "Repair Warranty (Months)",
+        "updateStatusLabel": "Update Status",
+        "statusNotesPlaceholder": "Optional notes for history...",
+        "updateBtn": "Update",
+        "currentStatus": "Current:",
+        "printBtn": "Print / Download",
+        "saveBtn": "Save Ticket"
+      },
+      "customerStatus": {
+        "title": "Repair Status",
+        "ticketId": "Ticket ID: {id}",
+        "deviceInfo": "Device Information",
+        "device": "Device:",
+        "serviceRequested": "Service Requested:",
+        "currentStatus": "Current Status:",
+        "scanQr": "Scan for status updates",
+        "historyTitle": "Repair History"
+      },
+      "ticketPrint": {
+        "title": "Print Ticket {id}",
+        "subtitle": "Choose an option to generate the repair and warranty slip.",
+        "downloadPdf": "Download PDF",
+        "generating": "Generating...",
+        "printBtn": "Print"
+      },
+      "export": {
+        "title": "Export Data",
+        "step1": "1. Select Data to Export",
+        "step2": "2. Select Date Range (Optional)",
+        "step2_desc": "Applies to date-filterable data types.",
+        "startDate": "Start Date",
+        "endDate": "End Date",
+        "previewBtn": "Preview Data",
+        "loading": "Loading...",
+        "previewTitle": "Data Preview",
+        "previewRecords": "Showing {start}-{end} of {total} records.",
+        "exportBtn": "Export to Excel",
+        "noPreview": "No data to preview",
+        "noPreviewDesc": "Select a data type and click \"Preview Data\".",
+        "page": "Page {current} of {total}",
+        "previous": "Previous",
+        "next": "Next",
+        "types": {
+            "invoices": "Invoices",
+            "repairTickets": "Repair Tickets",
+            "stockLogs": "Stock Receive Logs",
+            "products": "Products List"
+        }
+      }
+    }
+  }
+}
