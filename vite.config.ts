@@ -18,6 +18,10 @@ export default defineConfig(({ mode }) => {
         alias: {
           '@': path.resolve(__dirname, '.'),
         }
-      }
+      },
+     build: {
+    // Tăng giới hạn cảnh báo từ 500 kB lên 1000 kB (1 MB)
+    chunkSizeWarningLimit: 1000,
+    }
     };
 });
