@@ -1,0 +1,603 @@
+{
+  "lang": "Tiếng Việt",
+  "login": {
+    "title": "HAG",
+    "subtitle": "Đăng nhập vào nền tảng HAG",
+    "emailLabel": "Địa chỉ Email",
+    "passwordLabel": "Mật khẩu",
+    "rememberMe": "Ghi nhớ tôi",
+    "forgotPassword": "Quên mật khẩu?",
+    "signInButton": "Đăng nhập",
+    "demoLogins": "Tài khoản demo (sử dụng mật khẩu bất kỳ):",
+    "error": "Thông tin đăng nhập không hợp lệ. Vui lòng kiểm tra danh sách tài khoản demo bên dưới."
+  },
+  "appSelector": {
+    "title": "Cổng HAG",
+    "pinnedApps": "Ứng dụng đã ghim",
+    "allApps": "Tất cả ứng dụng",
+    "addApp": "Thêm ứng dụng",
+    "noApps": "Không có ứng dụng nào. Nhấn 'Thêm ứng dụng' để bắt đầu.",
+    "allPinned": "Tất cả các ứng dụng có sẵn đã được ghim.",
+    "logout": "Đăng xuất",
+    "editApp": "Sửa ứng dụng",
+    "deleteApp": "Xóa ứng dụng",
+    "pinApp": "Ghim ứng dụng",
+    "unpinApp": "Bỏ ghim ứng dụng",
+    "lastModified": "Sửa đổi lần cuối: {time}",
+    "idExistsError": "Một ứng dụng với ID này đã tồn tại. Vui lòng chọn một ID duy nhất."
+  },
+  "apps": {
+    "ApprovalFlow": {
+      "name": "Quản lý Luồng Phê duyệt",
+      "description": "Một ứng dụng toàn diện để tạo, quản lý và theo dõi các luồng phê duyệt tài liệu qua nhiều phòng ban."
+    },
+    "RolePermissions": {
+      "name": "Quản lý Phân quyền",
+      "description": "Ứng dụng quản lý vai trò và tài khoản người dùng. Quản lý đầy đủ chức năng, hành động, ánh xạ quyền toàn cục và giải thích bằng AI."
+    },
+    "RepairShop": {
+      "name": "Vận hành Cửa hàng",
+      "description": "Nền tảng hợp nhất để quản lý điểm bán hàng, sửa chữa thiết bị, kiểm kê và báo cáo kinh doanh cho cửa hàng công nghệ của bạn."
+    }
+  },
+  "enums": {
+    "userRoles": {
+      "Employee": "Nhân viên",
+      "Manager": "Quản lý",
+      "Director": "Giám đốc",
+      "Finance": "Tài chính",
+      "Admin": "Quản trị viên"
+    },
+    "departments": {
+      "IT": "CNTT",
+      "Human Resources": "Nhân sự",
+      "Finance": "Tài chính",
+      "Marketing": "Tiếp thị",
+      "Sales": "Kinh doanh"
+    }
+  },
+  "general": {
+    "backToApps": "Quay lại các ứng dụng",
+    "welcome": "Chào mừng, {name}",
+    "save": "Lưu",
+    "cancel": "Hủy",
+    "delete": "Xóa",
+    "confirm": "Xác nhận",
+    "add": "Thêm",
+    "edit": "Sửa",
+    "close": "Đóng",
+    "submit": "Gửi đi",
+    "all": "Tất cả",
+    "na": "Không có",
+    "search": "Tìm kiếm...",
+    "loading": "Đang tải...",
+    "optional": "(Tùy chọn)",
+    "required": "Bắt buộc",
+    "actions": "Hành động"
+  },
+  "modals": {
+    "deleteAppTitle": "Xóa Ứng dụng",
+    "deleteAppMessage": "Bạn có chắc chắn muốn xóa ứng dụng này không? Hành động này không thể hoàn tác.",
+    "appEdit": {
+      "editTitle": "Chỉnh sửa Ứng dụng",
+      "addTitle": "Thêm Ứng dụng",
+      "nameLabel": "Tên Ứng dụng",
+      "idLabel": "ID Ứng dụng",
+      "idError": "ID này đã được sử dụng. Vui lòng chọn ID khác.",
+      "idHelp": "ID duy nhất để khởi chạy ứng dụng. Tự động tạo từ tên.",
+      "descriptionLabel": "Mô tả",
+      "iconLabel": "Biểu tượng",
+      "linkLabel": "Liên kết ngoài (Tùy chọn)",
+      "linkHelp": "Nhập URL để mở trong tab mới (VD: https://google.com)."
+    }
+  },
+  "approvalFlow": {
+    "header": {
+      "title": "Luồng Phê duyệt",
+      "dashboard": "Bảng điều khiển",
+      "formTemplates": "Mẫu đơn",
+      "workflows": "Luồng công việc",
+      "newRequest": "Yêu cầu mới"
+    },
+    "index": {
+      "loading": "Đang tải dữ liệu Luồng Phê duyệt...",
+      "accessDenied": {
+        "title": "Truy cập bị từ chối",
+        "message": "Bạn không có quyền xem hoặc quản lý {resource}.",
+        "contactAdmin": "Vui lòng liên hệ quản trị viên nếu bạn cho rằng đây là một lỗi."
+      },
+      "dashboard": {
+        "myTasks": "Nhiệm vụ cần phê duyệt",
+        "waitingOnStep": "Đang chờ bạn phê duyệt ở bước: \"{stepName}\"",
+        "noTasks": "Không có nhiệm vụ nào đang chờ.",
+        "mySubmissions": "Tài liệu của tôi",
+        "currentStep": "Bước hiện tại: {step}",
+        "finished": "Đã hoàn thành",
+        "noSubmissions": "Bạn chưa gửi tài liệu nào."
+      },
+      "templates": {
+        "title": "Mẫu đơn",
+        "create": "Tạo mẫu đơn",
+        "fieldsCount": "Số trường: {count}"
+      },
+      "workflows": {
+        "title": "Định nghĩa Luồng công việc",
+        "create": "Tạo luồng",
+        "form": "Đơn: {name}",
+        "steps": "Số bước: {count}"
+      },
+      "alerts": {
+        "deleteWorkflowInUse": "Không thể xóa luồng công việc này vì nó đang được sử dụng trong một hoặc nhiều quy trình.",
+        "deleteWorkflowConfirm": "Bạn có chắc chắn muốn xóa định nghĩa luồng công việc này không?",
+        "noWorkflowForForm": "Không tìm thấy luồng công việc cho mẫu đơn này. Vui lòng liên hệ quản trị viên.",
+        "invalidFormTemplate": "Mẫu đơn không hợp lệ.",
+        "workflowNameAndStepRequired": "Tên luồng công việc và ít nhất một bước là bắt buộc.",
+        "deleteTemplateInUse": "Không thể xóa mẫu đơn này vì nó đang được sử dụng bởi một hoặc nhiều luồng công việc.",
+        "deleteTemplateConfirm": "Bạn có chắc chắn muốn xóa mẫu đơn này không? Hành động này không thể hoàn tác."
+      }
+    },
+    "instanceView": {
+      "workflow": "Luồng công việc: {name}",
+      "status": "Trạng thái",
+      "formType": "Loại đơn",
+      "formDetails": "Chi tiết đơn",
+      "downloadFile": "Tải tệp",
+      "approvalSteps": "Các bước phê duyệt",
+      "approverRole": "Vai trò phê duyệt: {role}",
+      "approvers": "Người phê duyệt: {users}",
+      "noApprover": "Chưa có người phê duyệt",
+      "emailNotification": "Đã bật thông báo qua email",
+      "history": "Lịch sử",
+      "actionByOnStep": "{action} bởi {actor} ở bước \"{stepName}\"",
+      "yourAction": "Hành động của bạn",
+      "notesPlaceholder": "Thêm ghi chú (tùy chọn)...",
+      "revert": "Hoàn lại",
+      "reject": "Từ chối",
+      "approve": "Phê duyệt"
+    },
+    "workflowEditor": {
+      "editTitle": "Chỉnh sửa luồng công việc",
+      "createTitle": "Tạo luồng công việc mới",
+      "nameLabel": "Tên luồng công việc",
+      "namePlaceholder": "VD: Phê duyệt hợp đồng giá trị cao",
+      "templateLabel": "Mẫu đơn",
+      "departmentLabel": "Phòng ban (Tùy chọn, để lọc)",
+      "allDepartments": "Tất cả phòng ban (Toàn cục)",
+      "stepsLabel": "Các bước phê duyệt",
+      "removeStep": "Xóa bước {step}",
+      "step": "Bước {step}",
+      "stepNameLabel": "Tên bước",
+      "stepNamePlaceholder": "VD: Phòng pháp lý xem xét",
+      "assignByLabel": "Giao cho",
+      "byRole": "Vai trò",
+      "byUser": "Người dùng",
+      "approverRoleLabel": "Vai trò phê duyệt",
+      "approversLabel": "Người phê duyệt",
+      "multiSelectHint": "Giữ Ctrl/Cmd để chọn nhiều người.",
+      "sendEmail": "Gửi thông báo email cho người phê duyệt",
+      "enableCondition": "Bật logic điều kiện cho bước này",
+      "selectField": "Chọn trường",
+      "addStep": "Thêm bước"
+    },
+    "docSubmission": {
+      "title": "Gửi đơn: {name}",
+      "requestNameLabel": "Tiêu đề / Tên yêu cầu",
+      "requestNamePlaceholder": "VD: Mua Dell XPS 15 mới cho dự án Titan",
+      "selectOption": "-- Chọn một tùy chọn --",
+      "download": "Tải về: {label}",
+      "department": "Phòng ban",
+      "submitButton": "Gửi đi phê duyệt",
+      "alertTitle": "Vui lòng điền tiêu đề yêu cầu.",
+      "alertFieldRequired": "Trường \"{label}\" là bắt buộc."
+    },
+    "templateEditor": {
+      "editTitle": "Chỉnh sửa mẫu đơn",
+      "createTitle": "Tạo mẫu đơn mới",
+      "nameLabel": "Tên mẫu đơn",
+      "namePlaceholder": "VD: Yêu cầu mua sắm phần cứng CNTT",
+      "departmentLabel": "Phòng ban",
+      "fieldsLabel": "Các trường dữ liệu",
+      "removeField": "Xóa trường {field}",
+      "fieldLabel": "Nhãn trường",
+      "fieldLabelPlaceholder": "VD: Lý do",
+      "fieldType": "Loại trường",
+      "placeholder": "Chữ gợi ý (Tùy chọn)",
+      "placeholderExample": "VD: Nhập tổng chi phí",
+      "dropdownOptions": "Các tùy chọn (Mỗi tùy chọn một dòng)",
+      "dropdownExample": "Tùy chọn 1\nTùy chọn 2\nTùy chọn 3",
+      "downloadUrl": "URL tải xuống",
+      "downloadUrlPlaceholder": "https://example.com/file.pdf",
+      "addField": "Thêm trường",
+      "saveTemplate": "Lưu mẫu",
+      "alertNameRequired": "Tên mẫu đơn là bắt buộc."
+    },
+    "newRequest": {
+      "title": "Bắt đầu yêu cầu mới",
+      "subtitle": "Chọn phòng ban và mẫu đơn để bắt đầu.",
+      "step1": "1. Chọn phòng ban",
+      "selectDepartment": "-- Chọn một phòng ban --",
+      "step2": "2. Chọn mẫu đơn",
+      "selectForm": "-- Chọn một mẫu đơn --",
+      "noFormsFound": "Không tìm thấy mẫu đơn nào cho phòng ban này.",
+      "startButton": "Bắt đầu yêu cầu"
+    }
+  },
+  "rolePermissions": {
+    "header": "Bảng điều khiển phân quyền",
+    "manageApp": "Quản lý ứng dụng",
+    "aiSummaryDefault": "Người dùng này chưa được gán vai trò nào và do đó có quyền truy cập hạn chế.",
+    "aiExplanationError": "Xin lỗi, tôi không thể lấy giải thích vào lúc này.",
+    "loadingData": "Đang tải dữ liệu quyền...",
+    "generatingExplanation": "Đang tạo giải thích...",
+    "tabs": {
+      "roleManagement": "Quản lý vai trò",
+      "userManagement": "Quản lý người dùng",
+      "permissions": "Quyền hạn",
+      "definitions": "Định nghĩa"
+    },
+    "userTab": {
+      "title": "Người dùng cho {appName}",
+      "addUser": "Thêm người dùng",
+      "table": {
+        "fullName": "Họ và tên",
+        "username": "Tên người dùng",
+        "email": "Email",
+        "roleInApp": "Vai trò trong ứng dụng"
+      },
+      "deleteConfirm": "Bạn có chắc chắn muốn xóa người dùng này không?",
+      "modal": {
+        "editTitle": "Chỉnh sửa người dùng",
+        "addTitle": "Thêm người dùng",
+        "fullName": "Họ và tên",
+        "username": "Tên người dùng",
+        "email": "Địa chỉ Email",
+        "assignRoles": "Gán vai trò",
+        "selected": "đã chọn {count}"
+      }
+    },
+    "roleTab": {
+      "selectRole": "Chọn vai trò",
+      "addNewRole": "Thêm vai trò mới",
+      "addRolePlaceholder": "Nhập tên vai trò mới...",
+      "copyFromLabel": "Sao chép quyền từ",
+      "copyButton": "Sao chép",
+      "confirmCopy": "Bạn có chắc chắn muốn thay thế tất cả các quyền của \"{toRole}\" bằng các quyền từ \"{fromRole}\" không?",
+      "function": "Chức năng",
+      "alertUniqueName": "Tên vai trò phải là duy nhất và không được để trống."
+    },
+    "matrixTab": {
+      "title": "Sơ đồ quyền hạn toàn cục",
+      "description": "Sử dụng sơ đồ này để bật hoặc tắt các hành động cho các chức năng trên toàn bộ ứng dụng. Nếu một hộp kiểm không được chọn ở đây, quyền tương ứng không thể được gán cho bất kỳ vai trò nào.",
+      "function": "Chức năng"
+    },
+    "definitionsTab": {
+      "manageFunctions": "Quản lý chức năng",
+      "addFunction": "Thêm chức năng",
+      "functionName": "Tên chức năng",
+      "controls": "Điều khiển",
+      "addSubFunction": "Thêm chức năng con",
+      "editFunction": "Sửa chức năng",
+      "deleteFunction": "Xóa chức năng",
+      "manageActions": "Quản lý hành động",
+      "addGroup": "Thêm nhóm",
+      "addAction": "Thêm hành động",
+      "editGroup": "Sửa nhóm",
+      "deleteGroup": "Xóa nhóm",
+      "alerts": {
+        "actionIdExists": "Một hành động với ID này đã tồn tại.",
+        "cannotDeleteGroupWithActions": "Không thể xóa một nhóm có chứa hành động. Vui lòng di chuyển hoặc xóa các hành động trước.",
+        "deleteFunctionConfirm": "Bạn có chắc chắn muốn xóa chức năng này không? Điều này có thể ảnh hưởng đến các vai trò hiện có.",
+        "deleteActionConfirm": "Bạn có chắc chắn muốn xóa hành động này không? Nó sẽ bị xóa khỏi tất cả các chức năng.",
+        "deleteGroupConfirm": "Bạn có chắc chắn muốn xóa nhóm hành động này không?"
+      }
+    },
+    "functionModal": {
+      "editTitle": "Sửa chức năng",
+      "addSubTitle": "Thêm chức năng con",
+      "addTitle": "Thêm chức năng",
+      "nameLabel": "Tên chức năng",
+      "availableActions": "Các hành động có sẵn",
+      "alertNameRequired": "Tên chức năng là bắt buộc."
+    },
+    "actionModal": {
+      "editTitle": "Sửa hành động",
+      "addTitle": "Thêm hành động",
+      "nameLabel": "Tên hành động",
+      "namePlaceholder": "VD: Phê duyệt",
+      "groupLabel": "Nhóm",
+      "selectGroup": "-- Chọn một nhóm --",
+      "alertNameRequired": "Tên hành động là bắt buộc.",
+      "alertGroupRequired": "Vui lòng chọn một nhóm cho hành động mới."
+    },
+    "groupModal": {
+      "editTitle": "Sửa nhóm hành động",
+      "addTitle": "Thêm nhóm hành động",
+      "nameLabel": "Tên nhóm",
+      "namePlaceholder": "VD: Báo cáo nâng cao",
+      "alertNameRequired": "Tên nhóm là bắt buộc."
+    }
+  },
+  "repairShop": {
+    "header": {
+      "title": "Vận hành Cửa hàng",
+      "sales": "Bán hàng",
+      "repairs": "Sửa chữa & Bảo hành",
+      "inventory": "Tồn kho",
+      "reports": "Quản lý & Báo cáo"
+    },
+    "dashboard": {
+      "title": "Phiếu sửa chữa",
+      "searchPlaceholder": "Tìm theo ID Phiếu, Khách hàng, Thiết bị...",
+      "newTicket": "Tạo phiếu sửa chữa mới",
+      "idHeader": "ID Phiếu",
+      "customerHeader": "Khách hàng",
+      "deviceHeader": "Thiết bị",
+      "statusHeader": "Trạng thái",
+      "dateHeader": "Ngày nhận",
+      "customerViewTooltip": "Xem trạng thái (cho khách)",
+      "editTooltip": "Sửa phiếu",
+      "noTickets": "Không tìm thấy phiếu sửa chữa nào phù hợp."
+    },
+    "sales": {
+      "posTab": "Điểm bán hàng (POS)",
+      "historyTab": "Lịch sử hóa đơn",
+      "searchPlaceholder": "Tìm sản phẩm theo tên hoặc ID...",
+      "outOfStock": "HẾT HÀNG",
+      "currentSale": "Đơn hàng hiện tại",
+      "clearCart": "Xóa giỏ hàng",
+      "selectCustomer": "-- Chọn khách hàng --",
+      "addCustomerTooltip": "Thêm khách hàng mới",
+      "cartEmptyTitle": "Giỏ hàng của bạn đang trống",
+      "cartEmptySubtitle": "Nhấp vào một sản phẩm để thêm vào đơn hàng.",
+      "subtotal": "Tạm tính:",
+      "discount": "Giảm giá:",
+      "tax": "Thuế (%):",
+      "total": "Tổng cộng:",
+      "payNow": "Thanh toán ngay",
+      "alertOutOfStock": "Sản phẩm này đã hết hàng.",
+      "alertNoMoreStock": "Không còn đủ hàng trong kho.",
+      "alertSelectCustomer": "Vui lòng chọn một khách hàng."
+    },
+    "inventory": {
+      "receiveStockTab": "Nhập hàng",
+      "productsCategoriesTab": "Sản phẩm & Danh mục",
+      "receiveTitle": "Nhập hàng mới",
+      "categoryLabel": "Danh mục",
+      "allCategories": "Tất cả danh mục",
+      "productLabel": "Sản phẩm",
+      "selectProduct": "-- Chọn một sản phẩm để thêm --",
+      "quantityLabel": "Số lượng",
+      "addToList": "Thêm vào danh sách",
+      "receivingList": "Danh sách nhập hàng",
+      "supplierLabel": "Nhà cung cấp (Tùy chọn)",
+      "notesLabel": "Ghi chú (Tùy chọn)",
+      "receiveAll": "Nhập tất cả mặt hàng",
+      "historyTitle": "Lịch sử nhập hàng",
+      "dateHeader": "Ngày",
+      "receivedByHeader": "Người nhập",
+      "supplierHeader": "Nhà cung cấp",
+      "totalItemsHeader": "Tổng số lượng",
+      "detailsHeader": "Chi tiết",
+      "logDetails": "Chi tiết cho Phiếu #{id}:",
+      "logNotes": "Ghi chú: \"{notes}\"",
+      "qty": "SL: {qty}",
+      "feedbackSuccess": "{count} loại mặt hàng đã được nhập thành công.",
+      "alertSelectProduct": "Vui lòng chọn một sản phẩm và nhập số lượng hợp lệ.",
+      "alertAddItems": "Vui lòng thêm ít nhất một mặt hàng vào danh sách nhập.",
+      "stockStatus": "Tồn kho: {stock}"
+    },
+    "products": {
+      "title": "Sản phẩm",
+      "newProduct": "Sản phẩm mới",
+      "searchPlaceholder": "Tìm kiếm sản phẩm...",
+      "nameHeader": "Tên sản phẩm",
+      "stockHeader": "Tồn kho",
+      "priceHeader": "Giá bán",
+      "lowStock": "Sắp hết",
+      "editor": {
+        "editTitle": "Chỉnh sửa sản phẩm",
+        "addTitle": "Thêm sản phẩm mới",
+        "nameLabel": "Tên sản phẩm",
+        "categoryLabel": "Danh mục",
+        "costPriceLabel": "Giá vốn ($)",
+        "markupLabel": "Lợi nhuận (%)",
+        "sellingPriceLabel": "Giá bán ($)",
+        "supplierLabel": "Nhà cung cấp",
+        "warrantyLabel": "Bảo hành (Tháng)",
+        "alertNameRequired": "Tên sản phẩm là bắt buộc.",
+        "saveBtn": "Lưu sản phẩm"
+      }
+    },
+    "categories": {
+      "title": "Danh mục",
+      "addNewPlaceholder": "Thêm danh mục mới...",
+      "addBtn": "Thêm",
+      "alertEmpty": "Tên danh mục không được để trống.",
+      "alertExists": "Một danh mục với tên này đã tồn tại.",
+      "alertCannotDelete": "Không thể xóa danh mục \"{name}\" vì nó đang được gán cho một hoặc nhiều sản phẩm.",
+      "deleteConfirm": "Bạn có chắc chắn muốn xóa danh mục \"{name}\" không?"
+    },
+    "management": {
+      "menuTitle": "Menu quản trị",
+      "reportsDashboard": "Bảng điều khiển báo cáo",
+      "auditLog": "Nhật ký kiểm toán"
+    },
+    "reports": {
+      "title": "Báo cáo",
+      "salesRevenueTitle": "Doanh thu Bán hàng & Sửa chữa",
+      "salesRevenueDesc": "Theo dõi doanh thu theo ngày, tháng hoặc năm.",
+      "bestSellingTitle": "Sản phẩm bán chạy nhất",
+      "bestSellingDesc": "Xác định các sản phẩm hàng đầu và phụ tùng sửa chữa được sử dụng nhiều nhất.",
+      "repairVolumeTitle": "Số lượng Sửa chữa & Bảo hành",
+      "repairVolumeDesc": "Số lượng phiếu sửa chữa và bảo hành theo thời gian.",
+      "salesEmployeeTitle": "Doanh số theo Nhân viên",
+      "salesEmployeeDesc": "Phân tích hiệu suất và dữ liệu bán hàng cho mỗi nhân viên.",
+      "inventoryTitle": "Báo cáo Tồn kho",
+      "inventoryDesc": "Xem mức tồn kho, vòng quay và số dư nhập/xuất.",
+      "exportDataTitle": "Xuất dữ liệu",
+      "exportDataDesc": "Tải xuống dữ liệu thô dưới dạng tệp Excel (.xlsx).",
+      "backBtn": "Quay lại Báo cáo",
+      "last7Days": "7 ngày qua",
+      "last30Days": "30 ngày qua",
+      "thisYear": "Năm nay",
+      "allTime": "Tất cả thời gian",
+      "totalRevenue": "Tổng doanh thu",
+      "grossProfit": "Lợi nhuận gộp",
+      "totalSales": "Tổng doanh số",
+      "totalRepairIncome": "Tổng thu nhập sửa chữa",
+      "dateHeader": "Ngày",
+      "salesProfitHeader": "Lợi nhuận bán hàng",
+      "repairProfitHeader": "Lợi nhuận sửa chữa",
+      "totalProfitHeader": "Tổng lợi nhuận",
+      "totalRevenueHeader": "Tổng doanh thu",
+      "noData": "Không có dữ liệu cho khoảng thời gian đã chọn.",
+      "top10Products": "Top 10 sản phẩm bán chạy",
+      "productHeader": "Sản phẩm",
+      "unitsSoldHeader": "Đơn vị đã bán",
+      "revenueHeader": "Doanh thu",
+      "top10Parts": "Top 10 phụ tùng được sử dụng nhiều nhất",
+      "partHeader": "Phụ tùng",
+      "unitsUsedHeader": "Đơn vị đã sử dụng",
+      "totalTicketsPeriod": "Tổng số phiếu trong kỳ",
+      "newTicketsHeader": "Phiếu mới được tạo",
+      "noNewTickets": "Không có phiếu mới nào trong khoảng thời gian đã chọn.",
+      "employeeHeader": "Nhân viên",
+      "salesCountHeader": "Số lượng bán",
+      "avgSaleValueHeader": "Giá trị bán trung bình",
+      "noSalesData": "Không có dữ liệu bán hàng cho khoảng thời gian đã chọn.",
+      "inventoryValue": "Tổng giá trị tồn kho",
+      "potentialProfit": "Lợi nhuận tiềm năng",
+      "totalSKUs": "Tổng số SKU",
+      "lowStockItems": "Mặt hàng sắp hết",
+      "stockHeader": "Tồn kho",
+      "costPriceHeader": "Giá vốn",
+      "potentialProfitHeader": "Lợi nhuận tiềm năng",
+      "totalValueHeader": "Tổng giá trị"
+    },
+    "enums": {
+      "repairStatus": {
+        "Pending": "Chờ xử lý",
+        "Diagnosing": "Đang chẩn đoán",
+        "Repairing": "Đang sửa chữa",
+        "Waiting for Part": "Chờ linh kiện",
+        "Completed": "Hoàn thành",
+        "Delivered": "Đã giao",
+        "Cancelled": "Đã hủy"
+      }
+    },
+    "modals": {
+      "customer": {
+        "addTitle": "Thêm khách hàng mới",
+        "nameLabel": "Họ và tên",
+        "phoneLabel": "Số điện thoại",
+        "emailLabel": "Địa chỉ Email (Tùy chọn)",
+        "alertRequired": "Tên và số điện thoại là bắt buộc.",
+        "saveBtn": "Lưu khách hàng"
+      },
+      "payment": {
+        "title": "Hoàn tất thanh toán",
+        "totalDue": "Tổng số tiền phải trả:",
+        "confirmBtn": "Xác nhận thanh toán"
+      },
+      "invoice": {
+        "title": "Chi tiết hóa đơn: {id}",
+        "dateLabel": "Ngày:",
+        "customerLabel": "Khách hàng:",
+        "salespersonLabel": "Nhân viên bán hàng:",
+        "itemsTitle": "Các mặt hàng",
+        "productHeader": "Sản phẩm",
+        "qtyHeader": "SL",
+        "unitPriceHeader": "Đơn giá",
+        "totalHeader": "Thành tiền"
+      },
+      "saleComplete": {
+        "title": "Bán hàng hoàn tất",
+        "success": "Thành công!",
+        "invoiceCreated": "Hóa đơn {id} đã được tạo.",
+        "summaryTitle": "Tóm tắt hóa đơn",
+        "total": "Tổng cộng:",
+        "downloadPdf": "Tải PDF",
+        "generating": "Đang tạo...",
+        "print": "In hóa đơn",
+        "newSale": "Bắt đầu đơn hàng mới"
+      },
+      "ticketEditor": {
+        "newTitle": "Phiếu sửa chữa mới",
+        "editTitle": "Sửa phiếu: {id}",
+        "customerLabel": "Khách hàng",
+        "selectCustomer": "-- Chọn khách hàng --",
+        "deviceModelLabel": "Kiểu máy",
+        "serialLabel": "Số sê-ri",
+        "technicianLabel": "Giao cho kỹ thuật viên",
+        "unassigned": "Chưa giao",
+        "issueLabel": "Vấn đề được báo cáo",
+        "diagnosisLabel": "Chẩn đoán",
+        "partsLabel": "Phụ tùng đã sử dụng",
+        "addPartPlaceholder": "-- Thêm một phụ tùng --",
+        "addPartStock": "Tồn kho: {stock}",
+        "laborCostLabel": "Chi phí nhân công ($)",
+        "totalCostLabel": "Tổng chi phí",
+        "warrantyLabel": "Bảo hành sửa chữa (Tháng)",
+        "updateStatusLabel": "Cập nhật trạng thái",
+        "statusNotesPlaceholder": "Ghi chú tùy chọn cho lịch sử...",
+        "updateBtn": "Cập nhật",
+        "currentStatus": "Hiện tại:",
+        "printBtn": "In / Tải xuống",
+        "saveBtn": "Lưu phiếu"
+      },
+      "customerStatus": {
+        "title": "Trạng thái sửa chữa",
+        "ticketId": "ID Phiếu: {id}",
+        "deviceInfo": "Thông tin thiết bị",
+        "device": "Thiết bị:",
+        "serviceRequested": "Yêu cầu dịch vụ:",
+        "currentStatus": "Trạng thái hiện tại:",
+        "scanQr": "Quét để cập nhật trạng thái",
+        "historyTitle": "Lịch sử sửa chữa"
+      },
+      "ticketPrint": {
+        "title": "In phiếu {id}",
+        "subtitle": "Chọn một tùy chọn để tạo phiếu sửa chữa và bảo hành.",
+        "downloadPdf": "Tải PDF",
+        "generating": "Đang tạo...",
+        "printBtn": "In"
+      },
+      "export": {
+        "title": "Xuất dữ liệu",
+        "step1": "1. Chọn dữ liệu để xuất",
+        "step2": "2. Chọn khoảng thời gian (Tùy chọn)",
+        "step2_desc": "Áp dụng cho các loại dữ liệu có thể lọc theo ngày.",
+        "startDate": "Ngày bắt đầu",
+        "endDate": "Ngày kết thúc",
+        "previewBtn": "Xem trước dữ liệu",
+        "loading": "Đang tải...",
+        "previewTitle": "Xem trước dữ liệu",
+        "previewRecords": "Hiển thị {start}-{end} trong số {total} bản ghi.",
+        "exportBtn": "Xuất ra Excel",
+        "noPreview": "Không có dữ liệu để xem trước",
+        "noPreviewDesc": "Chọn một loại dữ liệu và nhấp vào \"Xem trước dữ liệu\".",
+        "page": "Trang {current} / {total}",
+        "previous": "Trước",
+        "next": "Tiếp",
+        "types": {
+          "invoices": "Hóa đơn",
+          "repairTickets": "Phiếu sửa chữa",
+          "stockLogs": "Nhật ký nhập hàng",
+          "products": "Danh sách sản phẩm"
+        }
+      },
+      "appEdit": {
+        "editTitle": "Chỉnh sửa Ứng dụng",
+        "addTitle": "Thêm Ứng dụng",
+        "nameLabel": "Tên Ứng dụng",
+        "idLabel": "ID Ứng dụng",
+        "idError": "ID này đã được sử dụng. Vui lòng chọn ID khác.",
+        "idHelp": "ID duy nhất để khởi chạy ứng dụng. Tự động tạo từ tên.",
+        "descriptionLabel": "Mô tả",
+        "iconLabel": "Biểu tượng",
+        "linkLabel": "Liên kết ngoài (Tùy chọn)",
+        "linkHelp": "Nhập URL để mở trong tab mới (VD: https://google.com)."
+      }
+    }
+  }
+}
