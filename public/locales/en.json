@@ -12,7 +12,7 @@
     "error": "Invalid credentials. Check the list of demo accounts below."
   },
   "appSelector": {
-    "title": "HAG Portal",
+    "title": "Portal",
     "pinnedApps": "Pinned Applications",
     "allApps": "All Applications",
     "addApp": "Add Application",
