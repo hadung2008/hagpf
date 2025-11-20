@@ -34,7 +34,7 @@ export const Header: React.FC<HeaderProps> = ({ currentUser, onLogout, onBackToA
             <div className="container mx-auto px-2 sm:px-4">
                 {/* Top Row: Logo, Controls */}
                 <div className="flex justify-between items-center py-2 md:py-3">
-                    <div className="flex items-center space-x-2 md:space-x-4 flex-shrink-0">
+                    <div className="flex items-center space-x-2 md:space-x-4">
                         <button onClick={onBackToApps} className="p-1.5 rounded-full text-gray-500 dark:text-slate-400 hover:bg-gray-100 dark:hover:bg-slate-700" title={t('general.backToApps')}>
                             <ArrowUturnLeftIcon className="w-5 h-5" />
                         </button>
