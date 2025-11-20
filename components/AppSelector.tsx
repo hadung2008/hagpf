@@ -271,7 +271,7 @@ export const AppSelector: React.FC<AppSelectorProps> = ({ currentUser, onSelectA
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex justify-between items-center h-16">
                 <div className="flex items-center">
-                    <Logo className="h-8 w-8 mr-3" />
+                    <Logo className="h-20 w-20 mr-3" />
                     <h1 className="text-xl sm:text-2xl font-bold text-gray-800 dark:text-white tracking-tight truncate">
                         {t('appSelector.title')}
                     </h1>

@@ -39,7 +39,7 @@ export const Header: React.FC<HeaderProps> = ({ currentUser, onLogout, onBackToA
                             <ArrowUturnLeftIcon className="w-5 h-5" />
                         </button>
                         <div className="flex items-center">
-                            <Logo className="h-8 w-8 mr-2" />
+                            <Logo className="h-20 w-20 mr-2" />
                             <h1 className="text-lg md:text-xl font-bold text-gray-800 dark:text-white truncate max-w-[150px] sm:max-w-none">{t('approvalFlow.header.title')}</h1>
                         </div>
                         

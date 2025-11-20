@@ -45,8 +45,8 @@ export const LoginPage: React.FC<LoginPageProps> = ({ onLoginSuccess, users, the
       </div>
       <div className="w-full max-w-md">
         <div className="text-center mb-8">
-            <Logo className="h-20 w-20 mx-auto mb-4" />
-            <h1 className="text-3xl font-bold text-gray-800 dark:text-white">{t('login.title')}</h1>
+            <Logo className="h-30 w-30 mx-auto mb-4" />
+{/*             <h1 className="text-3xl font-bold text-gray-800 dark:text-white">{t('login.title')}</h1> */}
             <p className="text-gray-500 dark:text-gray-400 mt-2">{t('login.subtitle')}</p>
         </div>
         <div className="bg-white dark:bg-gray-800 rounded-lg shadow-xl p-8">

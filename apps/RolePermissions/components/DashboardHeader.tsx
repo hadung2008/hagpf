@@ -27,7 +27,7 @@ export const DashboardHeader: React.FC<DashboardHeaderProps> = ({ user, onLogout
                             <ArrowUturnLeftIcon className="w-5 h-5" />
                         </button>
                         <div className="flex items-center space-x-3 overflow-hidden">
-                            <Logo className="h-8 w-8" />
+                            <Logo className="h-20 w-20" />
                             <h1 className="text-lg sm:text-2xl font-bold text-gray-800 dark:text-white truncate">{t('rolePermissions.header')}</h1>
                             <p className="text-sm text-gray-600 dark:text-slate-400 hidden lg:block truncate">
                                 {t('general.welcome', { name: user?.fullName || 'Admin' })}

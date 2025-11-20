@@ -84,7 +84,7 @@ const AppContent: React.FC = () => {
     if (isLoading) {
         return (
             <div className="min-h-screen bg-gray-100 dark:bg-slate-900 flex items-center justify-center">
-                <LoadingSpinner message="Initializing H3TECH Platform..." />
+                <LoadingSpinner message="Initializing HAG Platform..." />
             </div>
         );
     }
